@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>documento</title>
+  <style>
+    body {
+      background-color: rgb(160, 4, 90);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .gridpink {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    
+    }
+
+      .rosapink img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10;
+      filter: grayscale(100%) brightness(50%);
+      transition:0.4s
+    
+    }
+
+    .rosapink:hover img {
+      filter: grayscale(0%) brightness(100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="gridpink">
+    <div class="rosapink"><img src="img/barbie.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/corazon.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/cerezas.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/coraje.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/nokia.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/Marie.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/pato vaquero.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/pato.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/queen.jpg" alt=""></div>
+    <div class="rosapink"><img src="img/reversa.jpg" alt=""></div>
+  </div>
+
+   
+</body>
+</html>
